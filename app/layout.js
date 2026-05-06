@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <Navigation />
 
         <div className="flex-1 px-8 py-12">
-          <main className="max-w-7xl mx-auto">
+          <main className="mx-auto max-w-7xl">
             {children}
           </main>
         </div>
