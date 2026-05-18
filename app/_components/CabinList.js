@@ -1,7 +1,9 @@
-import CabinCard from "./CabinCard"
-import { getCabins } from "../_lib/data-service";
+import { unstable_noStore as noStore } from "next/cache";
+import CabinCard from "./CabinCard";
+import { getCabins } from "@/app/_lib/data-service";
 
 async function CabinList() {
+    // noStore();
 
     const cabins = await getCabins();
 

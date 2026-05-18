@@ -11,7 +11,7 @@ const josefin = Josefin_Sans({
 console.log(josefin);
 
 import "@/app/_styles/globals.css";
-import Header from "./_components/Header";
+import Header from "@/app/_components/Header";
 
 export const metadata = {
   title: {
