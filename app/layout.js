@@ -12,6 +12,7 @@ console.log(josefin);
 
 import "@/app/_styles/globals.css";
 import Header from "@/app/_components/Header";
+import { ReservationProvider } from "./_components/ReservationContext";
 
 export const metadata = {
   title: {
@@ -30,7 +31,9 @@ export default function RootLayout({ children }) {
 
         <div className="flex-1 px-8 py-12">
           <main className="mx-auto max-w-7xl">
-            {children}
+            <ReservationProvider>
+              {children}
+            </ReservationProvider>
           </main>
         </div>
       </body>
