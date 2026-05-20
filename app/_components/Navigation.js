@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export default function Navigation() {
+
+
   return (
     <nav className="z-10 text-xl">
       <ul className="flex items-center gap-16">
