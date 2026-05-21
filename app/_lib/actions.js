@@ -3,5 +3,9 @@
 import { signIn } from "./auth";
 
 export async function signInAction() {
-    await signIn('google', { redirect: '/account' });
+    await signIn('google', { redirectTo: '/account' });
+}
+
+export async function signOutAction() {
+    await signOut('google', { redirectTo: '/' });
 }
