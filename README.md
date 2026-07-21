@@ -57,14 +57,6 @@ the-wild-oasis-website/
 └── tailwind.config.js
 ```
 
----
-
-## 🌐 Deployment
-
-The app is deployed on **Vercel**. Push to the `main` branch (or connect the repo in the Vercel dashboard) and add the environment variables above in your project settings to deploy.
-
----
-
 ## 📄 License
 
 This project was built for learning and portfolio purposes.
