@@ -32,7 +32,7 @@ export default async function Navigation() {
             >
               <Image
                 className="h-8 rounded-full"
-                // src={session.user.image}
+                src={session.user.image}
                 alt={session.user.name}
                 referrerPolicy="no-referrer"
               />
